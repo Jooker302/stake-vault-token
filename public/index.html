@@ -1,43 +1,1185 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+<head>
+    <meta charset="UTF-8">
+    <title>StartUp Agency- Dark</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/img/fv.png" type="image/x-icon">
+    <link rel="icon" href="assets/img/fv.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon-3.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark-version.css">
+</head>
+<body class="str-home dark-version">
+    <!-- preloader - start -->
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <!-- <div id="preloader" class="str-preloader"></div> -->
+    <div class="up">
+        <a href="#" id="scrollup" class="str-scrollup text-center"><i class="fas fa-angle-up"></i></a>
+    </div>
+        <!-- Start of header section
+            ============================================= -->
+            <header id="str-header-main" class="str-main-header">
+                <div class="container">
+                    <div class="str-header-content position-relative">
+                        <div class="str-header-top clearfix">
+                            <div class="str-language float-right ul-li-block">
+                             <a href="#"><img src="assets/img/startup/logo/ln1.png" alt="">English </a>
+                             <ul>
+                                 <li><a href="#"><img src="assets/img/startup/logo/ln1.png" alt="">English </a></li>
+                                 <li><a href="#"><img src="assets/img/startup/logo/ln1.png" alt="">English </a></li>
+                                 <li><a href="#"><img src="assets/img/startup/logo/ln1.png" alt="">English </a></li>
+                                 <li><a href="#"><img src="assets/img/startup/logo/ln1.png" alt="">English </a></li>
+                             </ul>
+                         </div> 
+                         <div class="str-social float-right">
+                            <a href="#"><i class="fab fa-facebook-f "></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                    <div class="str-main-menu">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="str-brand-logo">
+                                    <a href="#"><img src="assets/img/startup/logo/logo1.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="str-main-menu-item clearfix float-right">
+                                    <nav class="str-main-navigation  clearfix ul-li">
+                                        <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
+                                            <li> <a href="#">Home</a> </li>
+                                            <li><a href="#">Service</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Team</a> </li>
+                                            <li><a href="#">Pricing</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- desktop-menu -->
+                <div class="str-mobile_menu relative-position">
+                    <div class="str-mobile_menu_button str-open_mobile_menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="str-mobile_menu_wrap">
+                        <div class="mobile_menu_overlay str-open_mobile_menu"></div>
+                        <div class="str-mobile_menu_content">
+                            <div class="str-mobile_menu_close str-open_mobile_menu">
+                                <img src="assets/img/startup/logo/cls.png" alt="">
+                            </div>
+                            <div class="m-brand-logo text-center">
+                                <a href="!#"><img src="assets/img/startup/logo/logo1.png" alt=""></a>
+                            </div>
+                            <nav class="str-mobile-main-navigation  clearfix ul-li">
+                                <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Service</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Features</a></li>
+                                    <li><a href="#">Team</a> </li>
+                                    <li><a href="#">Pricing</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End of header section
+            ============================================= -->
+        <!-- Start of banner section
+            ============================================= -->
+            <section id="str-banner" class="str-banner-section" data-background="assets/img/startup/banner/bn.png">
+                <div class="container">
+                    <div id="str-banner-slide" class="str-banner-slide-area owl-carousel">
+                        <div class="str-banner-content str-headline pera-content">
+                            <h1>We help clients solve 
+                            complex problems </h1>
+                            <p>Our Activate suite of business apps gives your people the tools they
+                            Lorem ipsum dolor sit amet, consectetur.</p>
+                            <a class="d-block text-center" href="#"><i class="flaticon-right-arrow"></i> Read more</a>
+                        </div>
+                        <div class="str-banner-content str-headline pera-content">
+                            <h1>We help clients solve 
+                            complex problems </h1>
+                            <p>Our Activate suite of business apps gives your people the tools they
+                            Lorem ipsum dolor sit amet, consectetur.</p>
+                            <a class="d-block text-center" href="#"><i class="flaticon-right-arrow"></i> Read more</a>
+                        </div>
+                        <div class="str-banner-content str-headline pera-content">
+                            <h1>We help clients solve 
+                            complex problems </h1>
+                            <p>Our Activate suite of business apps gives your people the tools they
+                            Lorem ipsum dolor sit amet, consectetur.</p>
+                            <a class="d-block text-center" href="#"><i class="flaticon-right-arrow"></i> Read more</a>
+                        </div>
+                        <div class="str-banner-content str-headline pera-content">
+                            <h1>We help clients solve 
+                            complex problems </h1>
+                            <p>Our Activate suite of business apps gives your people the tools they
+                            Lorem ipsum dolor sit amet, consectetur.</p>
+                            <a class="d-block text-center" href="#"><i class="flaticon-right-arrow"></i> Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- End of banner section
+            ============================================= -->
+        <!-- Start of feature section
+            ============================================= -->
+            <section id="str-feature" class="str-feature-section">
+                <div class="container">
+                    <div class="str-section-title text-center str-title-center str-headline">
+                        <span class="str-title-tag">Our awesome features</span>
+                        <h2>We can give 
+                            facilites!
+                        </h2>
+                    </div>
+                    <div id="str-slide" class="str-feature-content owl-carousel">
+                        <div class="str-feature-box wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                            <div class="str-hover-icon text-center"><i class="fas fa-plus"></i></div>
+                            <div class="str-feature-icon-text text-center">
+                                <div class="str-feature-icon">
+                                    <img src="assets/img/startup/icon/f-icon1.png" alt="">
+                                </div>
+                                <div class="str-feature-text str-headline">
+                                    <h3>Data Analysis</h3>
+                                    <div class="str-feature-list ul-li-block">
+                                        <ul>
+                                            <li>Data research</li>
+                                            <li> Market analysis</li>
+                                            <li>Business strategy </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-feature-box wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="str-hover-icon text-center"><i class="fas fa-plus"></i></div>
+                            <div class="str-feature-icon-text text-center">
+                                <div class="str-feature-icon">
+                                    <img src="assets/img/startup/icon/f-icon2.png" alt="">
+                                </div>
+                                <div class="str-feature-text str-headline">
+                                    <h3>Data Analysis</h3>
+                                    <div class="str-feature-list ul-li-block">
+                                        <ul>
+                                            <li>Data research</li>
+                                            <li> Market analysis</li>
+                                            <li>Business strategy </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-feature-box wow fadeFromUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="str-hover-icon text-center"><i class="fas fa-plus"></i></div>
+                            <div class="str-feature-icon-text text-center">
+                                <div class="str-feature-icon">
+                                    <img src="assets/img/startup/icon/f-icon3.png" alt="">
+                                </div>
+                                <div class="str-feature-text str-headline">
+                                    <h3>Data Analysis</h3>
+                                    <div class="str-feature-list ul-li-block">
+                                        <ul>
+                                            <li>Data research</li>
+                                            <li> Market analysis</li>
+                                            <li>Business strategy </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-feature-box wow fadeFromUp" data-wow-delay="90ms" data-wow-duration="1500ms">
+                            <div class="str-hover-icon text-center"><i class="fas fa-plus"></i></div>
+                            <div class="str-feature-icon-text text-center">
+                                <div class="str-feature-icon">
+                                    <img src="assets/img/startup/icon/f-icon4.png" alt="">
+                                </div>
+                                <div class="str-feature-text str-headline">
+                                    <h3>Data Analysis</h3>
+                                    <div class="str-feature-list ul-li-block">
+                                        <ul>
+                                            <li>Data research</li>
+                                            <li> Market analysis</li>
+                                            <li>Business strategy </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- End of banner section
+            ============================================= -->  
+        <!-- Start of About Us section
+            ============================================= -->
+            <section id="str-about" class="str-about-section position-relative">
+                <div class="str-aboutbg1 position-absolute"><img src="assets/img/startup/shape/vs1.png" alt=""></div>
+                <div class="str-aboutbg2 position-absolute"><img src="assets/img/startup/shape/vs2.png" alt=""></div>
+                <div class="str-aboutbg3 position-absolute"><img src="assets/img/startup/shape/vs3.png" alt=""></div>
+                <div class="container">
+                    <div class="str-about-content">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="str-about-text wow fadeFromRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="str-section-title text-left str-title-left str-headline">
+                                        <span class="str-title-tag">About us</span>
+                                        <h2>Work with us to get
+                                            the best services.
+                                        </h2>
+                                    </div>
+                                    <div class="str-about-textarea">
+                                        As a app web crawler expert, I help organizations adjust to the expanding significance of internet promoting.
+                                    </div>
+                                    <div class="str-about-details">
+                                        As a app web crawler expert, I help organizations adjust to the expanding significance of internet promoting.
+                                        Lorem Ipsum is simply dummy text of the printing and typ
+                                        esetting industry is simply dummy text
+                                    </div>
+                                    <div class="str-about-list ul-li-block">
+                                        <ul>
+                                            <li>Qhen an unknown printer took a galley of type.</li>
+                                            <li>It was popularised in the 1960s with the release.</li>
+                                            <li>Aldus PageMaker including versions.</li>
+                                        </ul>
+                                    </div>
+                                    <a class="str-btn d-inline-block" href="#">Go to our team <i class="fas fa-arrow-alt-circle-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="str-about-img position-relative wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                    <div class="str-about-shape"><img src="assets/img/startup/shape/abs.png" alt=""></div>
+                                    <div class="str-about-logo"><img src="assets/img/startup/about/ab-logo.png" alt=""></div>
+                                    <div class="str-about-img-field">
+                                        <div class="str-about-pic">
+                                            <img src="assets/img/startup/about/ab1.png" alt="">
+                                        </div>
+                                        <div class="str-progress-area str-headline">
+                                            <h3>Mentorship</h3>
+                                            <div id="progress1" class="barfiller">
+                                                <div class="tipWrap"><span class="tip"></span></div>
+                                                <span class="fill" data-percentage="75"></span>
+                                            </div>
+                                            <h3>UI/UX </h3>
+                                            <div id="progress2" class="barfiller">
+                                                <div class="tipWrap"><span class="tip"></span></div>
+                                                <span class="fill" data-percentage="70"></span>
+                                            </div>
+                                            <h3>Marketing</h3>
+                                            <div id="progress3" class="barfiller">
+                                                <div class="tipWrap"><span class="tip"></span></div>
+                                                <span class="fill" data-percentage="90"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="str-about-img-field">
+                                        <div class="str-about-pic">
+                                            <img src="assets/img/startup/about/ab2.png" alt="">
+                                        </div>
+                                        <div class="str-about-pic">
+                                            <img src="assets/img/startup/about/ab3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-about-feature-area">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="str-about-feature-box clearfix wow fadeFromLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                        <div class="str-about-feature-icon text-center float-left">
+                                            <i class="flaticon-null-8"></i>
+                                        </div>
+                                        <div class="str-about-feature-text str-headline">
+                                            <h3>Best customer
+                                                support 
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="str-about-feature-box clearfix wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                        <div class="str-about-feature-icon text-center float-left">
+                                            <i class="flaticon-null-7"></i>
+                                        </div>
+                                        <div class="str-about-feature-text str-headline">
+                                            <h3>Money back
+                                                guarantee 
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="str-about-feature-box clearfix wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                        <div class="str-about-feature-icon text-center float-left">
+                                            <i class="flaticon-null-6"></i>
+                                        </div>
+                                        <div class="str-about-feature-text str-headline">
+                                            <h3>Lowest cost
+                                                provider
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- End of About Ud section
+            ============================================= --> 
+        <!-- Start of Work process section section
+            ============================================= -->
+            <section id="str-work-process" class="str-work-process-section">
+                <div class="container">
+                    <div class="str-section-title text-center str-title-center str-headline">
+                        <span class="str-title-tag">Work process</span>
+                        <h2>Some easy steps to boost
+                            & Grow Your Business
+                        </h2>
+                    </div>
+                    <div class="str-work-process-content">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="str-work-icon-text text-center wow fadeFromUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="str-work-icon">
+                                        <div class="str-icon-border"> <span class="work-circle-shape"></span></div>
+                                        <div class="icon-inner-shadow"></div>
+                                        <i class="flaticon-settings"></i>
+                                    </div>
+                                    <div class="str-work-text str-headline pera-content">
+                                        <h3>Setup workframe</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                                        <a class="str-btn d-inline-block" href="#">Setup Now <i class="flaticon-right-arrow"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="str-work-icon-text text-center wow fadeFromUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                    <div class="str-work-icon">
+                                        <div class="str-icon-border"> <span class="work-circle-shape"></span></div>
+                                        <div class="icon-inner-shadow"></div>
+                                        <i class="flaticon-download"></i>
+                                    </div>
+                                    <div class="str-work-text str-headline pera-content">
+                                        <h3>Download & install</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                                        <a class="str-btn d-inline-block" href="#">Setup Now <i class="flaticon-right-arrow"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="str-work-icon-text text-center wow fadeFromUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                    <div class="str-work-icon">
+                                        <div class="str-icon-border"> <span class="work-circle-shape"></span></div>
+                                        <div class="icon-inner-shadow"></div>
+                                        <i class="flaticon-black-and-white-credit-cards"></i>
+                                    </div>
+                                    <div class="str-work-text str-headline pera-content">
+                                        <h3>Payment & Boost</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                                        <a class="str-btn d-inline-block" href="#">Setup Now <i class="flaticon-right-arrow"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- End of Work process  section
+            ============================================= -->
+        <!-- Start of Portfolio section
+            ============================================= -->
+            <section id="str-portfolio" class="str-portfolio-section position-relative">
+                <div class="container">
+                    <div id="str-protfolio-slide" class="str-portfolio-area owl-carousel">
+                        <div class="str-port-img-text position-relative">
+                            <div class="str-port-img">
+                                <img src="assets/img/startup/portfolio/prt1.jpg" alt="">
+                            </div>
+                            <div class="str-port-text text-center str-headline">
+                                <h3>Creative Work</h3>
+                                <span>UI/UX</span>
+                                <div class="str-port-popup">
+                                    <a href="#"><i class="fas fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-port-img-text">
+                            <div class="str-port-img">
+                                <img src="assets/img/startup/portfolio/prt1.jpg" alt="">
+                            </div>
+                            <div class="str-port-text text-center str-headline">
+                                <h3>Creative Work</h3>
+                                <span>UI/UX</span>
+                                <div class="str-port-popup">
+                                    <a href="#"><i class="fas fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-port-img-text">
+                            <div class="str-port-img">
+                                <img src="assets/img/startup/portfolio/prt1.jpg" alt="">
+                            </div>
+                            <div class="str-port-text text-center str-headline">
+                                <h3>Creative Work</h3>
+                                <span>UI/UX</span>
+                                <div class="str-port-popup">
+                                    <a href="#"><i class="fas fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-port-img-text">
+                            <div class="str-port-img">
+                                <img src="assets/img/startup/portfolio/prt1.jpg" alt="">
+                            </div>
+                            <div class="str-port-text text-center str-headline">
+                                <h3>Creative Work</h3>
+                                <span>UI/UX</span>
+                                <div class="str-port-popup">
+                                    <a href="#"><i class="fas fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-port-img-text">
+                            <div class="str-port-img">
+                                <img src="assets/img/startup/portfolio/prt1.jpg" alt="">
+                            </div>
+                            <div class="str-port-text text-center str-headline">
+                                <h3>Creative Work</h3>
+                                <span>UI/UX</span>
+                                <div class="str-port-popup">
+                                    <a href="#"><i class="fas fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-port-img-text">
+                            <div class="str-port-img">
+                                <img src="assets/img/startup/portfolio/prt1.jpg" alt="">
+                            </div>
+                            <div class="str-port-text text-center str-headline">
+                                <h3>Creative Work</h3>
+                                <span>UI/UX</span>
+                                <div class="str-port-popup">
+                                    <a href="#"><i class="fas fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- End o fPortfolio section
+            ============================================= --> 
+        <!-- Start of str-testimonial section
+            ============================================= -->
+            <section id="str-testimonial" class="str-testimonial_section">
+                <div class="str-tst-vector"> <img src="assets/img/startup/shape/tst-shape.png" alt=""></div>
+                <div class="container">
+                    <div  class="str-testimonial_slider">
+                        <div id="str-testimonial_slide" class="carousel slide" data-ride="carousel" >
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="str-testimonial_indicator relative-position">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#str-testimonial_slide" data-slide-to="0" class="active">
+                                                <img src="assets/img/startup/testimonial/tst1.png" alt="">
+                                            </li>
+                                            <li data-target="#str-testimonial_slide" data-slide-to="1">
+                                                <img src="assets/img/startup/testimonial/tst2.png" alt="">
+                                            </li>
+                                            <li data-target="#str-testimonial_slide" data-slide-to="2">
+                                                <img src="assets/img/startup/testimonial/tst3.png" alt="">
+                                            </li>
+                                            <li data-target="#str-testimonial_slide" data-slide-to="3">
+                                                <img src="assets/img/startup/testimonial/tst4.png" alt="">
+                                            </li>
+                                            <li data-target="#str-testimonial_slide" data-slide-to="4">
+                                                <img src="assets/img/startup/testimonial/tst5.png" alt="">
+                                            </li>
+                                            <li data-target="#str-testimonial_slide" data-slide-to="5">
+                                                <img src="assets/img/startup/testimonial/tst6.png" alt="">
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="carousel_preview">
+                                        <div class="str-section-title text-left str-title-left pera-content str-headline">
+                                            <span class="str-title-tag">Our awesome features</span>
+                                            <h2>We can give the best
+                                                facilites for you!
+                                            </h2>
+                                            <p>As a app web crawler expert, I help organizations adjust to the expanding significance of internet promoting.</p>
+                                        </div>
+                                        <div class="carousel-inner relative-position">
+                                            <div class="carousel-item active">
+                                                <div class="str-testimonial_content">
+                                                    <div class="str-testimonial_rating ul-li">
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="str-testimonial_text relative-position pera-content str-headline">
+                                                        <h4>Best Designing Agency</h4>
+                                                        <p>As a app web crawler expert, I help organizations adjust to the expan
+                                                            ding significace of internet promoting. placeholder text for use in your graphic, print.Lorem Ipsum is simply dummy text of the printing and typesetting has been the industrys standard dummy.
+                                                        </p>
+                                                    </div>
+                                                    <div class="str-testimonial_name_designation">
+                                                        <div class="str-testimonial_img float-left">
+                                                            <img src="assets/img/startup/testimonial/tst1.png" alt="">
+                                                        </div>
+                                                        <div class="str-testimonial_meta str-headline pera-content">
+                                                            <h4>Nepoli Dewan</h4>
+                                                            <p>SEO Manager</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /slide item -->
+                                            <div class="carousel-item">
+                                                <div class="str-testimonial_content">
+                                                    <div class="str-testimonial_rating ul-li">
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="str-testimonial_text relative-position pera-content str-headline">
+                                                        <h4>Best Designing Agency</h4>
+                                                        <p>As a app web crawler expert, I help organizations adjust to the expan
+                                                            ding significace of internet promoting. placeholder text for use in your graphic, print.Lorem Ipsum is simply dummy text of the printing and typesetting has been the industrys standard dummy.
+                                                        </p>
+                                                    </div>
+                                                    <div class="str-testimonial_name_designation">
+                                                        <div class="str-testimonial_img float-left">
+                                                            <img src="assets/img/startup/testimonial/tst1.png" alt="">
+                                                        </div>
+                                                        <div class="str-testimonial_meta str-headline pera-content">
+                                                            <h4>Nepoli Dewan</h4>
+                                                            <p>SEO Manager</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /slide item -->
+                                            <div class="carousel-item">
+                                                <div class="str-testimonial_content">
+                                                    <div class="str-testimonial_rating ul-li">
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="str-testimonial_text relative-position pera-content str-headline">
+                                                        <h4>Best Designing Agency</h4>
+                                                        <p>As a app web crawler expert, I help organizations adjust to the expan
+                                                            ding significace of internet promoting. placeholder text for use in your graphic, print.Lorem Ipsum is simply dummy text of the printing and typesetting has been the industrys standard dummy.
+                                                        </p>
+                                                    </div>
+                                                    <div class="str-testimonial_name_designation">
+                                                        <div class="str-testimonial_img float-left">
+                                                            <img src="assets/img/startup/testimonial/tst1.png" alt="">
+                                                        </div>
+                                                        <div class="str-testimonial_meta str-headline pera-content">
+                                                            <h4>Nepoli Dewan</h4>
+                                                            <p>SEO Manager</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /slide item -->
+                                            <div class="carousel-item">
+                                                <div class="str-testimonial_content">
+                                                    <div class="str-testimonial_rating ul-li">
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="str-testimonial_text relative-position pera-content str-headline">
+                                                        <h4>Best Designing Agency</h4>
+                                                        <p>As a app web crawler expert, I help organizations adjust to the expan
+                                                            ding significace of internet promoting. placeholder text for use in your graphic, print.Lorem Ipsum is simply dummy text of the printing and typesetting has been the industrys standard dummy.
+                                                        </p>
+                                                    </div>
+                                                    <div class="str-testimonial_name_designation">
+                                                        <div class="str-testimonial_img float-left">
+                                                            <img src="assets/img/startup/testimonial/tst1.png" alt="">
+                                                        </div>
+                                                        <div class="str-testimonial_meta str-headline pera-content">
+                                                            <h4>Nepoli Dewan</h4>
+                                                            <p>SEO Manager</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /slide item -->
+                                            <div class="carousel-item">
+                                                <div class="str-testimonial_content">
+                                                    <div class="str-testimonial_rating ul-li">
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="str-testimonial_text relative-position pera-content str-headline">
+                                                        <h4>Best Designing Agency</h4>
+                                                        <p>As a app web crawler expert, I help organizations adjust to the expan
+                                                            ding significace of internet promoting. placeholder text for use in your graphic, print.Lorem Ipsum is simply dummy text of the printing and typesetting has been the industrys standard dummy.
+                                                        </p>
+                                                    </div>
+                                                    <div class="str-testimonial_name_designation">
+                                                        <div class="str-testimonial_img float-left">
+                                                            <img src="assets/img/startup/testimonial/tst1.png" alt="">
+                                                        </div>
+                                                        <div class="str-testimonial_meta str-headline pera-content">
+                                                            <h4>Nepoli Dewan</h4>
+                                                            <p>SEO Manager</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /slide item -->
+                                            <div class="carousel-item">
+                                                <div class="str-testimonial_content">
+                                                    <div class="str-testimonial_rating ul-li">
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="str-testimonial_text relative-position pera-content str-headline">
+                                                        <h4>Best Designing Agency</h4>
+                                                        <p>As a app web crawler expert, I help organizations adjust to the expan
+                                                            ding significace of internet promoting. placeholder text for use in your graphic, print.Lorem Ipsum is simply dummy text of the printing and typesetting has been the industrys standard dummy.
+                                                        </p>
+                                                    </div>
+                                                    <div class="str-testimonial_name_designation">
+                                                        <div class="str-testimonial_img float-left">
+                                                            <img src="assets/img/startup/testimonial/tst1.png" alt="">
+                                                        </div>
+                                                        <div class="str-testimonial_meta str-headline pera-content">
+                                                            <h4>Nepoli Dewan</h4>
+                                                            <p>SEO Manager</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /slide item -->
+                                            <div class="carousel-item">
+                                                <div class="str-testimonial_content">
+                                                    <div class="str-testimonial_rating ul-li">
+                                                        <ul>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                            <li><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="str-testimonial_text relative-position pera-content str-headline">
+                                                        <h4>Best Designing Agency</h4>
+                                                        <p>As a app web crawler expert, I help organizations adjust to the expan
+                                                            ding significace of internet promoting. placeholder text for use in your graphic, print.Lorem Ipsum is simply dummy text of the printing and typesetting has been the industrys standard dummy.
+                                                        </p>
+                                                    </div>
+                                                    <div class="str-testimonial_name_designation">
+                                                        <div class="str-testimonial_img float-left">
+                                                            <img src="assets/img/startup/testimonial/tst1.png" alt="">
+                                                        </div>
+                                                        <div class="str-testimonial_meta str-headline pera-content">
+                                                            <h4>Nepoli Dewan</h4>
+                                                            <p>SEO Manager</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /slide item -->
+                                        </div>
+                                    </div>
+                                    <div class="str-testimonial_indicator-dot">
+                                        <ol class="carousel-indicators2">
+                                            <li data-target="#str-testimonial_slide" data-slide-to="0" class="active">
+                                            </li>
+                                            <li data-target="#str-testimonial_slide" data-slide-to="1">
+                                            </li>
+                                            <li data-target="#str-testimonial_slide" data-slide-to="2">
+                                            </li>
+                                            <li data-target="#str-testimonial_slide" data-slide-to="3">
+                                            </li>
+                                            <li data-target="#str-testimonial_slide" data-slide-to="4">
+                                            </li>
+                                            <li data-target="#str-testimonial_slide" data-slide-to="5">
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- End of str-testimonial section
+            ============================================= --> 
+        <!-- Start of str-partner  section
+            ============================================= -->
+            <section id="str-partner" class="str-partner-section">
+                <div class="container">
+                    <div id="str-partner-slide" class="str-partner-area owl-carousel">
+                        <div class="str-partner-img">
+                            <img src="assets/img/startup/partner/p1.png" alt="">
+                        </div>
+                        <div class="str-partner-img">
+                            <img src="assets/img/startup/partner/p2.png" alt="">
+                        </div>
+                        <div class="str-partner-img">
+                            <img src="assets/img/startup/partner/p3.png" alt="">
+                        </div>
+                        <div class="str-partner-img">
+                            <img src="assets/img/startup/partner/p4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- End of str-partner section
+            ============================================= -->  
+        <!-- Start of newslatter  section
+            ============================================= -->
+            <section id="str-newslatter" class="str-newslatter-section">
+                <div class="container">
+                    <div class="str-newslatter-content position-relative" data-background="assets/img/startup/banner/nb.jpg">
+                        <div class="str-mail-icon position-absolute"><img src="assets/img/startup/icon/mail.png" alt=""></div>
+                        <div class="str-newslatter-text str-headline pera-content text-center">
+                            <h2>Want to get started!</h2>
+                            <p>You can send us your mail to get started Lorem Ipsum is simply
+                                dummy text of the printing and typeset.
+                            </p>
+                        </div>
+                        <div class="str-newslatter-form position-relative">
+                            <form action="#">
+                                <input class="email" name="email" type="email" placeholder="Enter your email address">
+                                <div class="nws-button  text-capitalize">
+                                    <button class="hover-btn" type="submit" value="Submit"> Subscribe</button> 
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- End of newslatter  section
+            ============================================= -->  
+        <!-- Start of member  section
+            ============================================= -->
+            <section id="str-team" class="str-team-section">
+                <div class="container">
+                    <div class="str-team-content">
+                        <div class="str-section-title text-center str-title-center str-headline">
+                            <span class="str-title-tag">Our Team</span>
+                            <h2>Our Team Member </h2>
+                        </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
-</html>
+                        <div id="str-team-slide" class="str-team-member-item owl-carousel">
+                            <div class="str-team-img-text position-relative wow fadeFromLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <div class="str-team-img">
+                                    <img src="assets/img/startup/team/tm1.jpg" alt="">
+                                </div>
+                                <div class="str-team-text text-center str-headline pera-content">
+                                    <h4>Andrea Luies</h4>
+                                    <span>Head in Design</span>
+                                    <p>As a app web crawler to expertiy, I help to do organi
+                                        iozat top of creature.
+                                    </p>
+                                    <div class="str-social-team">
+                                        <a href="#"><i class="fab fa-facebook-f "></i></a>
+                                        <a href="#"><i class="fab fa-behance"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="str-team-img-text position-relative wow fadeFromLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                <div class="str-team-img">
+                                    <img src="assets/img/startup/team/tm2.jpg" alt="">
+                                </div>
+                                <div class="str-team-text text-center str-headline pera-content">
+                                    <h4>Andrea Luies</h4>
+                                    <span>Head in Design</span>
+                                    <p>As a app web crawler to expertiy, I help to do organi
+                                        iozat top of creature.
+                                    </p>
+                                    <div class="str-social-team">
+                                        <a href="#"><i class="fab fa-facebook-f "></i></a>
+                                        <a href="#"><i class="fab fa-behance"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="str-team-img-text position-relative wow fadeFromLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                <div class="str-team-img">
+                                    <img src="assets/img/startup/team/tm3.jpg" alt="">
+                                </div>
+                                <div class="str-team-text text-center str-headline pera-content">
+                                    <h4>Andrea Luies</h4>
+                                    <span>Head in Design</span>
+                                    <p>As a app web crawler to expertiy, I help to do organi
+                                        iozat top of creature.
+                                    </p>
+                                    <div class="str-social-team">
+                                        <a href="#"><i class="fab fa-facebook-f "></i></a>
+                                        <a href="#"><i class="fab fa-behance"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="str-team-img-text position-relative wow fadeFromLeft" data-wow-delay="900ms" data-wow-duration="1500ms">
+                                <div class="str-team-img">
+                                    <img src="assets/img/startup/team/tm4.jpg" alt="">
+                                </div>
+                                <div class="str-team-text text-center str-headline pera-content">
+                                    <h4>Andrea Luies</h4>
+                                    <span>Head in Design</span>
+                                    <p>As a app web crawler to expertiy, I help to do organi
+                                        iozat top of creature.
+                                    </p>
+                                    <div class="str-social-team">
+                                        <a href="#"><i class="fab fa-facebook-f "></i></a>
+                                        <a href="#"><i class="fab fa-behance"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- End of member  section
+            ============================================= --> 
+        <!-- Start of get in touch  section
+            ============================================= -->            
+            <section id="str-get-in-touch" class="str-get-in-touch-section">
+                <div class="container">
+                    <div class="str-get-in-touch-content">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="str-get-touch-icon-text">
+                                    <div class="str-get-touch-icon text-center float-left">
+                                        <img src="assets/img/startup/icon/gt1.png" alt="">
+                                    </div>
+                                    <div class="str-get-touch-text str-headline">
+                                        <h3>Office address</h3>
+                                        <span>2 Holt Street, Surry Hills, Australia. </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="str-get-touch-icon-text">
+                                    <div class="str-get-touch-icon text-center float-left">
+                                        <img src="assets/img/startup/icon/gt2.png" alt="">
+                                    </div>
+                                    <div class="str-get-touch-text str-headline">
+                                        <h3>Telephone number</h3>
+                                        <span>2 Holt Street, Surry Hills, Australia. </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="str-get-touch-icon-text">
+                                    <div class="str-get-touch-icon text-center float-left">
+                                        <img src="assets/img/startup/icon/gt3.png" alt="">
+                                    </div>
+                                    <div class="str-get-touch-text str-headline">
+                                        <h3>Mail address</h3>
+                                        <span>help@SaaSio.com </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <div id="google-map" class="google-map-area position-relative">
+            <div class="earth3dmap-com">
+                <iframe id="iframemap" src="https://maps.google.com/maps?q=newyork&amp;ie=UTF8&amp;iwloc=&amp;output=embed"  height="280"></iframe>
+            </div>
+            <div class="str-maplocation">
+                <div class="str-location-iiner str-headline pera-content">
+                    <div class="str-location-counter float-left">
+                        <img src="assets/img/startup/logo/mapng.png" alt=""> 
+                    </div>
+                    <h4>SaaSio</h4>
+                    <p>Newyork
+                    office</p>
+                </div>
+                <div class="str-feature-indicatior relative-posstrion">
+                    <div class="str-indicator-border1"></div>
+                    <div class="str-indicator-border2"></div>
+                </div>
+            </div>
+        </div>
+        <!-- End of get in touch  section
+            ============================================= --> 
+        <!-- Start of blog  section
+            ============================================= -->  
+            <section id="str-blog" class="str-blog-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="str-section-title text-left str-title-left pera-content str-headline">
+                                <span class="str-title-tag">News</span>
+                                <h2>Learn more form blog!</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="str-team-title-text">
+                                As a app web crawler expert, I help organizations adjust to the expanding significance of internet promoting.
+                            </div>
+                        </div>
+                    </div>
+                    <div id="str-blog-slide" class="str-blog-area owl-carousel">
+                        <div class="str-blog-img-text position-relative">
+                            <div class="str-blog-thumb">
+                                <img src="assets/img/startup/blog/b1.jpg" alt="">
+                            </div>
+                            <div class="str-blog-meta text-center text-uppercase">
+                                28 jun
+                            </div>
+                            <div class="str-blog-text str-headline">
+                                <a class="str-post-meta" href="#">by admin</a>
+                                <h3><a href="#">How Stay Calm from the
+                                First Time.</a></h3>
+                                <div class="str-read-more">
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-blog-img-text position-relative">
+                            <div class="str-blog-thumb">
+                                <img src="assets/img/startup/blog/b2.jpg" alt="">
+                            </div>
+                            <div class="str-blog-meta text-center text-uppercase">
+                                28 jun
+                            </div>
+                            <div class="str-blog-text str-headline">
+                                <a class="str-post-meta" href="#">by admin</a>
+                                <h3><a href="#">How Stay Calm from the
+                                First Time.</a> </h3>
+                                <div class="str-read-more">
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-blog-img-text position-relative">
+                            <div class="str-blog-thumb">
+                                <img src="assets/img/startup/blog/b3.jpg" alt="">
+                            </div>
+                            <div class="str-blog-meta text-center text-uppercase">
+                                28 jun
+                            </div>
+                            <div class="str-blog-text str-headline">
+                                <a class="str-post-meta" href="#">by admin</a>
+                                <h3><a href="#">How Stay Calm from the
+                                First Time.</a> </h3>
+                                <div class="str-read-more">
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-blog-img-text position-relative">
+                            <div class="str-blog-thumb">
+                                <img src="assets/img/startup/blog/b1.jpg" alt="">
+                            </div>
+                            <div class="str-blog-meta text-center text-uppercase">
+                                28 jun
+                            </div>
+                            <div class="str-blog-text str-headline">
+                                <a class="str-post-meta" href="#">by admin</a>
+                                <h3><a href="#">How Stay Calm from the
+                                First Time.</a> </h3>
+                                <div class="str-read-more">
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-blog-img-text position-relative">
+                            <div class="str-blog-thumb">
+                                <img src="assets/img/startup/blog/b2.jpg" alt="">
+                            </div>
+                            <div class="str-blog-meta text-center text-uppercase">
+                                28 jun
+                            </div>
+                            <div class="str-blog-text str-headline">
+                                <a class="str-post-meta" href="#">by admin</a>
+                                <h3><a href="#">How Stay Calm from the
+                                First Time.</a> </h3>
+                                <div class="str-read-more">
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="str-blog-img-text position-relative">
+                            <div class="str-blog-thumb">
+                                <img src="assets/img/startup/blog/b3.jpg" alt="">
+                            </div>
+                            <div class="str-blog-meta text-center text-uppercase">
+                                28 jun
+                            </div>
+                            <div class="str-blog-text str-headline">
+                                <a class="str-post-meta" href="#">by admin</a>
+                                <h3><a href="#">How Stay Calm from the
+                                First Time.</a>      </h3>
+                                <div class="str-read-more">
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- Start of blog  section
+            ============================================= -->         
+        <!-- Start of footer  section
+            ============================================= -->  
+            <footer id="str-footer" class="str-footer-area">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="str-footer-widget str-headline pera-content">
+                                    <div class="str-ft-about-widget">
+                                        <a  href="#"><img src="assets/img/startup/logo/logo1.png" alt=""></a>
+                                        <p>We work with a passion of taking challenges and creating new ones in advertising sector.</p>
+                                        <div class="ft-about-btn">
+                                            <a href="#">About us</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="str-footer-widget str-headline pera-content">
+                                    <div class="str-newslatter-widget">
+                                        <h3 class="str-widget-title">Newsletter</h3>
+                                        <p>Subscribe our newsletter to get our
+                                            latest update & news
+                                        </p>
+                                        <form action="#">
+                                            <input class="email" name="email" type="email" placeholder="Your email address">
+                                            <button class="hover-btn" type="submit" value="Submit"> <i class="fas fa-paper-plane"></i></button> 
+                                        </form>
+                                        <div class="str-social-footer">
+                                            <a href="#"><i class="fab fa-facebook-f "></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                                            <a href="#"><i class="fab fa-behance"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="str-footer-widget str-headline pera-content">
+                                    <div class="str-office-widget">
+                                        <h3 class="str-widget-title">Official info:</h3>
+                                        <div class="str-office-icon-text">
+                                            <div class="str-office-icon float-left">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                            <p>30 Commercial Road
+                                                Fratton, Australia
+                                            </p>
+                                        </div>
+                                        <div class="str-office-icon-text">
+                                            <div class="str-office-icon float-left">
+                                                <i class="fas fa-phone"></i>
+                                            </div>
+                                            <p>1-888-452-1505</p>
+                                        </div>
+                                        <div class="str-open-hour">
+                                            <span>Open Hours: </span>
+                                            <p>Mon - Sat: 8 am - 5 pm,
+                                                Sunday: CLOSED
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="str-footer-widget str-headline pera-content">
+                                    <div class="str-insta-widget">
+                                        <h3 class="str-widget-title">Instagram</h3>
+                                        <div class="str-insta-feed">
+                                            <a href="!#"><img src="assets/img/startup/instagram/ins1.jpg" alt=""></a>
+                                            <a href="!#"><img src="assets/img/startup/instagram/ins2.jpg" alt=""></a>
+                                            <a href="!#"><img src="assets/img/startup/instagram/ins3.jpg" alt=""></a>
+                                            <a href="!#"><img src="assets/img/startup/instagram/ins4.jpg" alt=""></a>
+                                            <a href="!#"><img src="assets/img/startup/instagram/ins5.jpg" alt=""></a>
+                                            <a href="!#"><img src="assets/img/startup/instagram/ins6.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="str-copywright-text text-center">
+                    2023
+	<meta name="keywords" content="	accountant, advertising, advisor, agency, broker, business, clean, consulting, creative, elementor, finance, insurance, marketing, modern, portfolio"> © All rights reserved by  <a href="#">Themexriver</a>
+                </div>
+            </footer>
+        <!-- End of footer  section
+            ============================================= -->        
+            <!-- JS library -->
+            <script src="assets/js/jquery.js"></script>
+            <script src="assets/js/popper.min.js"></script>
+            <script src="assets/js/appear.js"></script>
+            <script src="assets/js/bootstrap.min.js"></script>
+            <script src="assets/js/aos.js"></script>
+            <script src="assets/js/owl.js"></script>
+            <script src="assets/js/wow.min.js"></script>
+            <script src="assets/js/pagenav.js"></script>
+            <script src="assets/js/parallax-scroll.js"></script>
+            <script src="assets/js/jquery.paroller.min.js"></script>
+            <script src="assets/js/jquery.barfiller.js"></script>
+            <script src="assets/js/slick.js"></script>
+            <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <script src="assets/js/script.js"></script>
+        </body>
+        </html>
