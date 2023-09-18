@@ -143,8 +143,8 @@ theme.
     overflow: visible;
   }
   .ei-preloader {
-    background-color: #fff;
-    background: #f1f2f3 url("../img/app-landing/pre.svg") no-repeat center center;
+    background-color: #000;
+    background: #000000 url("../img/app-landing/pre.svg") no-repeat center center;
   }
   .container {
     max-width: 1200px;
